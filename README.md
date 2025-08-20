@@ -28,12 +28,13 @@ Projeto da disciplina de **Data Warehouse**, com foco em análise de dados utili
 ## 💻 Como Executar
 
 1. Instale o XAMPP e inicie o Apache + MySQL.
-2. Acesse o phpMyAdmin em `http://localhost/phpmyadmin` e importe o banco.
-3. Execute o notebook no Google Colab ou localmente no VSCode.
-4. Verifique se a conexão com o banco está correta (usuário, senha e porta do MySQL).
+2. Acesse o phpMyAdmin em `http://localhost/phpmyadmin` e importe o banco
+3. Para importar o banco você primeiro extraia o arquivo rar (dados_combustiveis.rar)
+4. Execute o notebook localmente no VSCode.
+5. Verifique se a conexão com o banco está correta (usuário, senha e porta do MySQL), lembrando que não haverá senha ficara em aspas vazio mesmo
 
 ## 📌 Observações
 
 - Este projeto foi desenvolvido como parte da avaliação da disciplina de **Data Warehouse**.
-- O objetivo principal é aplicar o conhecimento de modelagem dimensional e análise de dados com Python.
-- O dataset utilizado refere-se a dados de combustíveis no Brasil em 2024.
+- O objetivo principal é aplicar o conhecimento de modelagem dimensional e análise de dados ETL com Python.
+- O dataset utilizado refere-se a dados reais de preço de combustíveis no Brasil em 2024 da ANP do site https://dados.gov.br/home
